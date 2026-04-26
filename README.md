@@ -10,6 +10,7 @@ View all blog posts
 Individual blog page
 Responsive UI
 REST API integration
+
 **Tech Stack**
 Frontend
 Next.js
