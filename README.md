@@ -5,7 +5,9 @@ The application allows authenticated users to publish articles while visitors ca
 
 **Features**
 User authentication (Login / Signup)
+
 Create, edit, and delete blog posts
+
 View all blog posts
 Individual blog page
 Responsive UI
