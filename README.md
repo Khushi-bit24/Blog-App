@@ -18,14 +18,22 @@ Responsive UI
 REST API integration
 
 **Tech Stack**
+
 Frontend
+
 Next.js
+
 React
+
 Tailwind CSS
+
 Backend
+
 Node.js
+
 Express.js
-Database
+
+**Database**
 MongoDB with Mongoose
 **Folder Structure**
 blog-app
