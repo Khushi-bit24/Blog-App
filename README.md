@@ -4,13 +4,17 @@ A modern full stack blog platform where users can create, edit, and read blog po
 The application allows authenticated users to publish articles while visitors can browse and read blogs.
 
 **Features**
+
 User authentication (Login / Signup)
 
 Create, edit, and delete blog posts
 
 View all blog posts
+
 Individual blog page
+
 Responsive UI
+
 REST API integration
 
 **Tech Stack**
