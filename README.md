@@ -34,21 +34,32 @@ Node.js
 Express.js
 
 **Database**
+
 MongoDB with Mongoose
+
 **Folder Structure**
+
 blog-app
-│
+
 ├── frontend
+
 │   ├── components
+
 │   ├── pages
+
 │   └── styles
-│
+
+
 ├── backend
+
 │   ├── routes
+
 │   ├── controllers
+
 │   └── models
-│
+
 └── README.md
+
 **Installation**
 1. Clone the Repository
 git clone https://github.com/yourusername/blog-app.git
@@ -58,19 +69,25 @@ cd blog-app
 **Frontend:**
 
 cd frontend
+
 npm install
 
 **Backend:**
 
 cd backend
+
 npm install
-Environment Variables
+
+**Environment Variables**
 
 Create a .env file in the backend folder.
 
 MONGO_URI=your_mongodb_connection
+
 JWT_SECRET=your_secret_key
+
 PORT=5000
+
 Run the Application
 
 **Start backend:**
@@ -80,12 +97,19 @@ npm run dev
 **Start frontend:**
 
 npm run dev
-**Future Improvements**
-Comment system
-Blog likes
-Rich text editor
-Image upload
-User profile pages
-Author
 
-Khushi
+**Future Improvements**
+
+Comment system
+
+Blog likes
+
+Rich text editor
+
+Image upload
+
+User profile pages
+
+**Author**
+
+Khushi Kumari
