@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+**Full Stack Blog App**
 
-## Getting Started
+A modern full stack blog platform where users can create, edit, and read blog posts.
+The application allows authenticated users to publish articles while visitors can browse and read blogs.
 
-First, run the development server:
+**Features**
 
-```bash
+User authentication (Login / Signup)
+
+Create, edit, and delete blog posts
+
+View all blog posts
+
+Individual blog page
+
+Responsive UI
+
+REST API integration
+
+**Tech Stack**
+
+Frontend
+
+Next.js
+
+React
+
+Tailwind CSS
+
+Backend
+
+Node.js
+
+Express.js
+
+**Database**
+
+MongoDB with Mongoose
+
+**Folder Structure**
+
+blog-app
+
+├── frontend
+
+│   ├── components
+
+│   ├── pages
+
+│   └── styles
+
+
+├── backend
+
+│   ├── routes
+
+│   ├── controllers
+
+│   └── models
+
+└── README.md
+
+**Installation**
+1. Clone the Repository
+git clone https://github.com/yourusername/blog-app.git
+cd blog-app
+2. Install Dependencies
+
+**Frontend:**
+
+cd frontend
+
+npm install
+
+**Backend:**
+
+cd backend
+
+npm install
+
+**Environment Variables**
+
+Create a .env file in the backend folder.
+
+MONGO_URI=your_mongodb_connection
+
+JWT_SECRET=your_secret_key
+
+PORT=5000
+
+Run the Application
+
+**Start backend:**
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Start frontend:**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Future Improvements**
 
-## Learn More
+Comment system
 
-To learn more about Next.js, take a look at the following resources:
+Blog likes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Rich text editor
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Image upload
 
-## Deploy on Vercel
+User profile pages
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Author**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Khushi Kumari
